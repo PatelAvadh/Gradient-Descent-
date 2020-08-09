@@ -22,7 +22,7 @@ def grad_w(w,b,x,y):
   return (fx-y)*(fx)*(1-fx)*x
 
 def do_gradient_descent():
-  w,b,eta,max_epoch = 1,2,0.01,3000
+  w,b,eta,max_epoch = 1,2,10,1000
   for i in range(max_epoch):
     dw=0
     db=0
