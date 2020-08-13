@@ -1,0 +1,30 @@
+Output Difference between  Vanilla Gradient Descent and Momentum gradient Descent
+
+Let's take :
+w,b,eta,max_epoch = 5,5,1,1000
+
+So Output is:
+
+Vanilla Gradient Descent :  0.3240155700802745
+Seconds =  0.020986318588256836
+-------------------------------------
+Momentum Gradient Descent :  0.05429710730849852
+Seconds =  0.029056072235107422
+
+Now take:
+w,b,eta,max_epoch = -2,-2,10,1000
+
+So Output is:
+
+Vanilla Gradient Descent :  2.5037089277034066e-32
+Seconds =  0.034319400787353516
+-------------------------------------
+Momentum Gradient Descent :  0.009933813537944557
+Seconds =  0.03246021270751953
+
+
+Conclusion:
+
+Here from above 2 examples we can say that If error is too loo low then only Vanilla Gradient Descent
+will converge to that error and error is average normal then Momentum Gradient will converge easily.
+
